@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMOUS BOXERS</title>
+</head>
+<body>
+    <header>
+        <h1>FAMOUS BOXERS</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#pictures">Pictures</a>
+        <a href="#contact">Contact</a>
+        <a href="#videos">Videos</a>
+    </nav>
+    <section id="home">
+        <h2>Home Page Section</h2>
+        <p> These are some of the most viewed boxers by the fans of the sport</p>
+    </section>
+    <section id="pictures">
+        <h2>Pictures</h2>
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </section>
+    <section id="contact">
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="videos">
+        <h2>Videos</h2>
+        <iframe src="https://www.youtube.com/watch?v=uVU_7ZAiYFY" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <footer>
+        &copy; 2023 My One-Page Website. All rights reserved.
+    </footer>
+</body>
+</html>
